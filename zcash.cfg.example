@@ -21,7 +21,7 @@ pool_frontend_zcash {
   equihashShareCheck = "true";
   stratumWorkLifeTime = "9";
   
-  zmqclientHost = "coinsforall.io";
+  zmqclientHost = "pool.tao.vn";
   zmqclientListenPort = "6668";
   zmqclientWorkPort = "60200";
 
