@@ -1,7 +1,7 @@
 pool_frontend_zcash {
   isMaster = "true";
   poolFee = "1";
-  poolFeeAddr = "t1ZsLopJKzyuaqmeC2Y6cx1351G13st2sWN";
+  poolFeeAddr = "t1Ye7goVbZivvf8SLfoRiHDjLZL3UK6DLYX";
   walletAddrs = ["p2p://127.0.0.1:12201"];
   localAddress = "p2p://127.0.0.1:13301";
   walletAppName = "pool_rpc";
@@ -25,6 +25,6 @@ pool_frontend_zcash {
   zmqclientListenPort = "6668";
   zmqclientWorkPort = "60200";
 
-  pool_zaddr = "zcWDMjkEyRPQAFjs5RWEzoqXG9BipLRWr4S9bC4A44g7eBv6ZhnqrWWc5M5MyNn4pt9vP2PEvK9NkUwerQbewEcEWz8ZL4f";
-  pool_taddr = "t1ZRsyK4pkBq7WD4gnF8r3nCYSQT19Zhh3C";
+  pool_zaddr = "zceGPyPdxgXk3doF4tiwFBFmEhHi8zyKi9cUwbfArEuaVGkp7dA14g24VnM43euBZk2kYpEYvJ3k4t9TUxjwhV86ymHCzrV";
+  pool_taddr = "t1Ye7goVbZivvf8SLfoRiHDjLZL3UK6DLYX";
 }
