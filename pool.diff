@@ -6,7 +6,7 @@ diff --git a/src/Makefile b/src/Makefile
  LIBTOOL = $(SHELL) $(top_builddir)/libtool
  LIBTOOL_APP_LDFLAGS = 
 -LIBZCASH_LIBS = -lsnark -lgmp -lgmpxx -lboost_system-mt -lcrypto -lsodium -fopenmp
-+LIBZCASH_LIBS = -lsnark -lgmp -lgmpxx -lboost_system-mt -lcrypto -lsodium -fopenmp -L/root/pools/poolcore/x86_64-Linux/zcash -lpoolrpczcash -L/root/pools/libp2p/x86_64-Linux/p2p -lp2p -L/root/pools/libp2p/x86_64-Linux/asyncio -lasyncio-0.3 -lrt
++LIBZCASH_LIBS = -lsnark -lgmp -lgmpxx -lboost_system-mt -lcrypto -lsodium -fopenmp -L/root/pools/poolcore/x86_64-Linux/zcash -l/root/pools/poolcore/x86_64-Linux/poolrpczcash -L/root/pools/libp2p/x86_64-Linux/p2p -lp2p -L/root/pools/libp2p/x86_64-Linux/asyncio -lasyncio-0.3 -lrt
  LIPO = 
  LN_S = ln -s
  LRELEASE = 
